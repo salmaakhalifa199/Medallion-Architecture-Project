@@ -1,0 +1,23 @@
+name: sales_dwh
+profile: sales_dwh
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  sales_dwh:
+
+    staging:
+      +schema: Silver
+      +database: SALES_DATA_WAREHOUSE
+      +materialized: view
+
+    marts:
+      +schema: Gold
+      +database: SALES_DATA_WAREHOUSE
+      +materialized: table
