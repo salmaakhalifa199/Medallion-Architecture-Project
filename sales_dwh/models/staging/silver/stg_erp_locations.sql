@@ -1,25 +1,21 @@
 with source as (
 
     select * 
-    from {{ source('bronze', 'erp_cust_az12') }}
+    from {{ source('bronze', 'erp_loc_a101') }}
 
 ),
 
 cleaned as (
 
     select
-        replace(cid, 'NAS', '') as customer_id,
+        replace(cid, '-', '') as customer_id,
 
         case 
-            when bdate > current_date then null
-            else bdate
-        end as birth_date,
-
-        case 
-            when upper(trim(gen)) in ('M', 'MALE') then 'Male'
-            when upper(trim(gen)) in ('F', 'FEMALE') then 'Female'
-            else 'Unknown'
-        end as gender
+            when cntry in ('US', 'USA') then 'United States'
+            when cntry = 'DE' then 'Germany'
+            when cntry is null or cntry = '' then 'Unknown'
+            else cntry
+        end as country
 
     from source
 

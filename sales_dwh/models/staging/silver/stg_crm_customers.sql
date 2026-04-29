@@ -25,11 +25,12 @@ cleaned as (
             else 'Unknown'
         end as gender,
 
-        cst_create_date
+        cst_create_date as create_date
 
     from source
     where cst_id is not null
 
 )
 
-select * from cleaned
+select * 
+from cleaned
