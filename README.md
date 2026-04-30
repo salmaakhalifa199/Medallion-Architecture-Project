@@ -11,18 +11,6 @@ This project demonstrates a modern data warehouse architecture that transforms r
 - **Gold Layer**: Business-ready dimensional models and aggregated facts
 
 ### Data Flow
-```
-Source Systems (CRM, ERP)
-        ↓
-    Bronze Layer
-        ↓
-   Silver Layer
-        ↓
-    Gold Layer
-        ↓
-  Analytics/BI Tools
-```
-
 ![Medallion Architecture](docs/data_flow.png)
 
 ## 🛠️ Technology Stack
