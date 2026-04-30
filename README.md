@@ -157,7 +157,6 @@ SNOWFLAKE_ACCOUNT=your_account.snowflakecomputing.com
 SNOWFLAKE_USER=your_username
 SNOWFLAKE_PASSWORD=your_password
 SNOWFLAKE_DATABASE=SALES_DATA_WAREHOUSE
-SNOWFLAKE_SCHEMA=BRONZE
 SNOWFLAKE_WAREHOUSE=SALES_DWH_WH
 ```
 
@@ -195,17 +194,6 @@ The Gold layer is modeled as a star schema with a central fact table and linked 
   - `dim_customers`
   - `dim_products`
 
-```
-           dim_customers
-                 |
-                 |
-                 |
-            fact_sales
-                 |
-                 |
-                 |
-            dim_products
-```
 
 ![Star Schema and Data Model](docs/data_model.png)
 
@@ -254,5 +242,4 @@ dbt test --project-dir /opt/airflow/dbt/sales_dwh --profiles-dir /opt/airflow/db
 ### Snowflake Monitoring
 - Use Snowflake web UI to monitor queries and warehouse usage
 - Check table sizes and data distributions
-
 

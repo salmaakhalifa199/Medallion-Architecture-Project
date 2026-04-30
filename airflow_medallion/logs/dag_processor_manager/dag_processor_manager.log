@@ -1983,3 +1983,11 @@ File Path                                PID    Runtime      # DAGs    # Errors 
 ================================================================================
 [2026-04-30T13:08:45.159+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
 [2026-04-30T13:08:45.185+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-04-30T13:09:03.706+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dwh_pipeline.py                           1           0  0.20s           2026-04-30T13:08:50
+================================================================================
