@@ -10,20 +10,9 @@ This project demonstrates a modern data warehouse architecture that transforms r
 - **Silver Layer**: Cleaned, standardized, and transformed data
 - **Gold Layer**: Business-ready dimensional models and aggregated facts
 
-### Data Flow
-```
-Source Systems (CRM, ERP)
-        ↓
-    Bronze Layer
-        ↓
-   Silver Layer
-        ↓
-    Gold Layer
-        ↓
-  Analytics/BI Tools
-```
+![Data Flow](docs/data_flow.png)
 
-![Medallion Architecture](docs/data_flow.png)
+![Medallion Architecture](docs/data_architecture.png)
 
 ## 🛠️ Technology Stack
 
