@@ -1211,3 +1211,31 @@ IndentationError: unindent does not match any outer indentation level
 [2026-04-30T12:42:41.306+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:42:41.306+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-04-30T12:42:41.335+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:42:41.334+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
 [2026-04-30T12:42:41.358+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.133 seconds
+[2026-04-30T12:43:11.928+0000] {processor.py:161} INFO - Started process (PID=850) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:43:11.930+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:43:11.932+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:43:11.932+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:43:11.968+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:43:12.012+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:43:12.011+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:43:12.041+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:43:12.041+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:43:12.067+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.146 seconds
+[2026-04-30T12:43:43.064+0000] {processor.py:161} INFO - Started process (PID=861) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:43:43.067+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:43:43.072+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:43:43.072+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:43:43.103+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:43:43.141+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:43:43.141+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:43:43.171+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:43:43.170+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:43:43.195+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.142 seconds
+[2026-04-30T12:44:13.745+0000] {processor.py:161} INFO - Started process (PID=872) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:44:13.747+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:44:13.751+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:44:13.750+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:44:13.796+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:44:13.847+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:44:13.847+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:44:13.876+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:44:13.876+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:44:13.905+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.168 seconds
+[2026-04-30T12:44:44.283+0000] {processor.py:161} INFO - Started process (PID=883) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:44:44.285+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:44:44.288+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:44:44.287+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:44:44.315+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:44:44.353+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:44:44.353+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:44:44.381+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:44:44.381+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:44:44.407+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.131 seconds
