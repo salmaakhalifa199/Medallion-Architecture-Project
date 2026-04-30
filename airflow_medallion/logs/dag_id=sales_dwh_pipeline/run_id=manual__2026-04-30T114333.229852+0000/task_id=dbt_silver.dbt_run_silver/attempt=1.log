@@ -1,0 +1,108 @@
+[2026-04-30T11:43:53.631+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-30T11:43:53.685+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sales_dwh_pipeline.dbt_silver.dbt_run_silver manual__2026-04-30T11:43:33.229852+00:00 [queued]>
+[2026-04-30T11:43:53.700+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sales_dwh_pipeline.dbt_silver.dbt_run_silver manual__2026-04-30T11:43:33.229852+00:00 [queued]>
+[2026-04-30T11:43:53.701+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-04-30T11:43:53.726+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): dbt_silver.dbt_run_silver> on 2026-04-30 11:43:33.229852+00:00
+[2026-04-30T11:43:53.741+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=236) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-04-30T11:43:53.744+0000] {standard_task_runner.py:63} INFO - Started process 237 to run task
+[2026-04-30T11:43:53.742+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'sales_dwh_pipeline', 'dbt_silver.dbt_run_silver', 'manual__2026-04-30T11:43:33.229852+00:00', '--job-id', '18', '--raw', '--subdir', 'DAGS_FOLDER/sales_dwh_pipeline.py', '--cfg-path', '/tmp/tmpiyhla1l0']
+[2026-04-30T11:43:53.746+0000] {standard_task_runner.py:91} INFO - Job 18: Subtask dbt_silver.dbt_run_silver
+[2026-04-30T11:43:53.863+0000] {task_command.py:426} INFO - Running <TaskInstance: sales_dwh_pipeline.dbt_silver.dbt_run_silver manual__2026-04-30T11:43:33.229852+00:00 [running]> on host a4a2343379ce
+[2026-04-30T11:43:54.018+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-team' AIRFLOW_CTX_DAG_ID='sales_dwh_pipeline' AIRFLOW_CTX_TASK_ID='dbt_silver.dbt_run_silver' AIRFLOW_CTX_EXECUTION_DATE='2026-04-30T11:43:33.229852+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-30T11:43:33.229852+00:00'
+[2026-04-30T11:43:54.019+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-04-30T11:43:54.047+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-04-30T11:43:54.049+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'dbt run --project-dir /opt/***/dbt/sales_dwh --profiles-dir /opt/***/dbt/profiles --no-use-colors --select staging']
+[2026-04-30T11:43:54.071+0000] {subprocess.py:86} INFO - Output:
+[2026-04-30T11:43:58.707+0000] {subprocess.py:93} INFO - 11:43:58  Running with dbt=1.11.8
+[2026-04-30T11:44:02.986+0000] {subprocess.py:93} INFO - 11:44:02  Registered adapter: snowflake=1.8.4
+[2026-04-30T11:44:05.325+0000] {subprocess.py:93} INFO - 11:44:05  Found 9 models, 5 data tests, 6 sources, 617 macros
+[2026-04-30T11:44:05.332+0000] {subprocess.py:93} INFO - 11:44:05
+[2026-04-30T11:44:05.334+0000] {subprocess.py:93} INFO - 11:44:05  Concurrency: 4 threads (target='dev')
+[2026-04-30T11:44:05.336+0000] {subprocess.py:93} INFO - 11:44:05
+[2026-04-30T11:44:10.747+0000] {subprocess.py:93} INFO - 11:44:10  1 of 6 START sql view model Silver.stg_crm_customers ........................... [RUN]
+[2026-04-30T11:44:10.750+0000] {subprocess.py:93} INFO - 11:44:10  2 of 6 START sql view model Silver.stg_crm_products ............................ [RUN]
+[2026-04-30T11:44:10.753+0000] {subprocess.py:93} INFO - 11:44:10  3 of 6 START sql view model Silver.stg_crm_sales ............................... [RUN]
+[2026-04-30T11:44:10.755+0000] {subprocess.py:93} INFO - 11:44:10  4 of 6 START sql view model Silver.stg_erp_categories .......................... [RUN]
+[2026-04-30T11:44:13.084+0000] {subprocess.py:93} INFO - 11:44:13  4 of 6 ERROR creating sql view model Silver.stg_erp_categories ................. [ERROR in 2.31s]
+[2026-04-30T11:44:13.091+0000] {subprocess.py:93} INFO - 11:44:13  5 of 6 START sql view model Silver.stg_erp_customers ........................... [RUN]
+[2026-04-30T11:44:13.265+0000] {subprocess.py:93} INFO - 11:44:13  2 of 6 ERROR creating sql view model Silver.stg_crm_products ................... [ERROR in 2.50s]
+[2026-04-30T11:44:13.273+0000] {subprocess.py:93} INFO - 11:44:13  6 of 6 START sql view model Silver.stg_erp_locations ........................... [RUN]
+[2026-04-30T11:44:13.408+0000] {subprocess.py:93} INFO - 11:44:13  3 of 6 ERROR creating sql view model Silver.stg_crm_sales ...................... [ERROR in 2.64s]
+[2026-04-30T11:44:15.122+0000] {subprocess.py:93} INFO - 11:44:15  5 of 6 ERROR creating sql view model Silver.stg_erp_customers .................. [ERROR in 2.02s]
+[2026-04-30T11:44:15.559+0000] {subprocess.py:93} INFO - 11:44:15  6 of 6 ERROR creating sql view model Silver.stg_erp_locations .................. [ERROR in 2.27s]
+[2026-04-30T11:44:49.988+0000] {subprocess.py:93} INFO - 11:44:49  1 of 6 ERROR creating sql view model Silver.stg_crm_customers .................. [ERROR in 39.23s]
+[2026-04-30T11:44:50.009+0000] {subprocess.py:93} INFO - 11:44:50
+[2026-04-30T11:44:50.011+0000] {subprocess.py:93} INFO - 11:44:50  Finished running 6 view models in 0 hours 0 minutes and 44.67 seconds (44.67s).
+[2026-04-30T11:44:50.206+0000] {subprocess.py:93} INFO - 11:44:50
+[2026-04-30T11:44:50.209+0000] {subprocess.py:93} INFO - 11:44:50  Completed with 6 errors, 0 partial successes, and 0 warnings:
+[2026-04-30T11:44:50.211+0000] {subprocess.py:93} INFO - 11:44:50
+[2026-04-30T11:44:50.214+0000] {subprocess.py:93} INFO - 11:44:50  Failure in model stg_erp_categories (models/staging/silver/stg_erp_categories.sql)
+[2026-04-30T11:44:50.216+0000] {subprocess.py:93} INFO - 11:44:50    Database Error in model stg_erp_categories (models/staging/silver/stg_erp_categories.sql)
+[2026-04-30T11:44:50.216+0000] {subprocess.py:93} INFO -   002003 (42S02): SQL compilation error:
+[2026-04-30T11:44:50.217+0000] {subprocess.py:93} INFO -   Object 'SALES_DATA_WAREHOUSE.BRONZE.ERP_PX_CAT_G1V2' does not exist or not authorized.
+[2026-04-30T11:44:50.218+0000] {subprocess.py:93} INFO -   compiled code at target/run/sales_dwh/models/staging/silver/stg_erp_categories.sql
+[2026-04-30T11:44:50.218+0000] {subprocess.py:93} INFO - 11:44:50
+[2026-04-30T11:44:50.220+0000] {subprocess.py:93} INFO - 11:44:50    compiled code at target/compiled/sales_dwh/models/staging/silver/stg_erp_categories.sql
+[2026-04-30T11:44:50.222+0000] {subprocess.py:93} INFO - 11:44:50
+[2026-04-30T11:44:50.224+0000] {subprocess.py:93} INFO - 11:44:50  Failure in model stg_crm_products (models/staging/silver/stg_crm_products.sql)
+[2026-04-30T11:44:50.226+0000] {subprocess.py:93} INFO - 11:44:50    Database Error in model stg_crm_products (models/staging/silver/stg_crm_products.sql)
+[2026-04-30T11:44:50.227+0000] {subprocess.py:93} INFO -   002003 (42S02): SQL compilation error:
+[2026-04-30T11:44:50.228+0000] {subprocess.py:93} INFO -   Object 'SALES_DATA_WAREHOUSE.BRONZE.CRM_PRD_INFO' does not exist or not authorized.
+[2026-04-30T11:44:50.229+0000] {subprocess.py:93} INFO -   compiled code at target/run/sales_dwh/models/staging/silver/stg_crm_products.sql
+[2026-04-30T11:44:50.230+0000] {subprocess.py:93} INFO - 11:44:50
+[2026-04-30T11:44:50.231+0000] {subprocess.py:93} INFO - 11:44:50    compiled code at target/compiled/sales_dwh/models/staging/silver/stg_crm_products.sql
+[2026-04-30T11:44:50.233+0000] {subprocess.py:93} INFO - 11:44:50
+[2026-04-30T11:44:50.236+0000] {subprocess.py:93} INFO - 11:44:50  Failure in model stg_crm_sales (models/staging/silver/stg_crm_sales.sql)
+[2026-04-30T11:44:50.238+0000] {subprocess.py:93} INFO - 11:44:50    Database Error in model stg_crm_sales (models/staging/silver/stg_crm_sales.sql)
+[2026-04-30T11:44:50.239+0000] {subprocess.py:93} INFO -   002003 (42S02): SQL compilation error:
+[2026-04-30T11:44:50.240+0000] {subprocess.py:93} INFO -   Object 'SALES_DATA_WAREHOUSE.BRONZE.CRM_SALES_DETAILS' does not exist or not authorized.
+[2026-04-30T11:44:50.241+0000] {subprocess.py:93} INFO -   compiled code at target/run/sales_dwh/models/staging/silver/stg_crm_sales.sql
+[2026-04-30T11:44:50.242+0000] {subprocess.py:93} INFO - 11:44:50
+[2026-04-30T11:44:50.243+0000] {subprocess.py:93} INFO - 11:44:50    compiled code at target/compiled/sales_dwh/models/staging/silver/stg_crm_sales.sql
+[2026-04-30T11:44:50.244+0000] {subprocess.py:93} INFO - 11:44:50
+[2026-04-30T11:44:50.247+0000] {subprocess.py:93} INFO - 11:44:50  Failure in model stg_erp_customers (models/staging/silver/stg_erp_customers.sql)
+[2026-04-30T11:44:50.250+0000] {subprocess.py:93} INFO - 11:44:50    Database Error in model stg_erp_customers (models/staging/silver/stg_erp_customers.sql)
+[2026-04-30T11:44:50.251+0000] {subprocess.py:93} INFO -   002003 (42S02): SQL compilation error:
+[2026-04-30T11:44:50.252+0000] {subprocess.py:93} INFO -   Object 'SALES_DATA_WAREHOUSE.BRONZE.ERP_CUST_AZ12' does not exist or not authorized.
+[2026-04-30T11:44:50.252+0000] {subprocess.py:93} INFO -   compiled code at target/run/sales_dwh/models/staging/silver/stg_erp_customers.sql
+[2026-04-30T11:44:50.253+0000] {subprocess.py:93} INFO - 11:44:50
+[2026-04-30T11:44:50.255+0000] {subprocess.py:93} INFO - 11:44:50    compiled code at target/compiled/sales_dwh/models/staging/silver/stg_erp_customers.sql
+[2026-04-30T11:44:50.258+0000] {subprocess.py:93} INFO - 11:44:50
+[2026-04-30T11:44:50.260+0000] {subprocess.py:93} INFO - 11:44:50  Failure in model stg_erp_locations (models/staging/silver/stg_erp_locations.sql)
+[2026-04-30T11:44:50.263+0000] {subprocess.py:93} INFO - 11:44:50    Database Error in model stg_erp_locations (models/staging/silver/stg_erp_locations.sql)
+[2026-04-30T11:44:50.265+0000] {subprocess.py:93} INFO -   002003 (42S02): SQL compilation error:
+[2026-04-30T11:44:50.266+0000] {subprocess.py:93} INFO -   Object 'SALES_DATA_WAREHOUSE.BRONZE.ERP_LOC_A101' does not exist or not authorized.
+[2026-04-30T11:44:50.267+0000] {subprocess.py:93} INFO -   compiled code at target/run/sales_dwh/models/staging/silver/stg_erp_locations.sql
+[2026-04-30T11:44:50.268+0000] {subprocess.py:93} INFO - 11:44:50
+[2026-04-30T11:44:50.269+0000] {subprocess.py:93} INFO - 11:44:50    compiled code at target/compiled/sales_dwh/models/staging/silver/stg_erp_locations.sql
+[2026-04-30T11:44:50.272+0000] {subprocess.py:93} INFO - 11:44:50
+[2026-04-30T11:44:50.275+0000] {subprocess.py:93} INFO - 11:44:50  Failure in model stg_crm_customers (models/staging/silver/stg_crm_customers.sql)
+[2026-04-30T11:44:50.277+0000] {subprocess.py:93} INFO - 11:44:50    Database Error in model stg_crm_customers (models/staging/silver/stg_crm_customers.sql)
+[2026-04-30T11:44:50.277+0000] {subprocess.py:93} INFO -   002003 (42S02): SQL compilation error:
+[2026-04-30T11:44:50.278+0000] {subprocess.py:93} INFO -   Object 'SALES_DATA_WAREHOUSE.BRONZE.CRM_CUST_INFO' does not exist or not authorized.
+[2026-04-30T11:44:50.279+0000] {subprocess.py:93} INFO -   compiled code at target/run/sales_dwh/models/staging/silver/stg_crm_customers.sql
+[2026-04-30T11:44:50.279+0000] {subprocess.py:93} INFO - 11:44:50
+[2026-04-30T11:44:50.281+0000] {subprocess.py:93} INFO - 11:44:50    compiled code at target/compiled/sales_dwh/models/staging/silver/stg_crm_customers.sql
+[2026-04-30T11:44:50.284+0000] {subprocess.py:93} INFO - 11:44:50
+[2026-04-30T11:44:50.286+0000] {subprocess.py:93} INFO - 11:44:50  Done. PASS=0 WARN=0 ERROR=6 SKIP=0 NO-OP=0 TOTAL=6
+[2026-04-30T11:44:51.924+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2026-04-30T11:44:51.926+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-04-30T11:44:51.951+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 243, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2026-04-30T11:44:51.961+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=sales_dwh_pipeline, task_id=dbt_silver.dbt_run_silver, run_id=manual__2026-04-30T11:43:33.229852+00:00, execution_date=20260430T114333, start_date=20260430T114353, end_date=20260430T114451
+[2026-04-30T11:44:51.996+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 18 for task dbt_silver.dbt_run_silver (Bash command failed. The command returned a non-zero exit code 1.; 237)
+[2026-04-30T11:44:52.050+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2026-04-30T11:44:52.093+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-04-30T11:44:52.115+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

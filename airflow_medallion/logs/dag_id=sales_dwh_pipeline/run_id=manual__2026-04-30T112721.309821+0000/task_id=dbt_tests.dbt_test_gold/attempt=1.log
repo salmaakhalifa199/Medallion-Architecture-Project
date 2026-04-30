@@ -1,0 +1,68 @@
+[2026-04-30T11:29:32.798+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-30T11:29:32.860+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sales_dwh_pipeline.dbt_tests.dbt_test_gold manual__2026-04-30T11:27:21.309821+00:00 [queued]>
+[2026-04-30T11:29:32.877+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sales_dwh_pipeline.dbt_tests.dbt_test_gold manual__2026-04-30T11:27:21.309821+00:00 [queued]>
+[2026-04-30T11:29:32.878+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-04-30T11:29:32.904+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): dbt_tests.dbt_test_gold> on 2026-04-30 11:27:21.309821+00:00
+[2026-04-30T11:29:32.923+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=407) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-04-30T11:29:32.920+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'sales_dwh_pipeline', 'dbt_tests.dbt_test_gold', 'manual__2026-04-30T11:27:21.309821+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/sales_dwh_pipeline.py', '--cfg-path', '/tmp/tmp1o8z8sel']
+[2026-04-30T11:29:32.925+0000] {standard_task_runner.py:63} INFO - Started process 408 to run task
+[2026-04-30T11:29:32.925+0000] {standard_task_runner.py:91} INFO - Job 14: Subtask dbt_tests.dbt_test_gold
+[2026-04-30T11:29:33.041+0000] {task_command.py:426} INFO - Running <TaskInstance: sales_dwh_pipeline.dbt_tests.dbt_test_gold manual__2026-04-30T11:27:21.309821+00:00 [running]> on host b479807686c0
+[2026-04-30T11:29:33.208+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-team' AIRFLOW_CTX_DAG_ID='sales_dwh_pipeline' AIRFLOW_CTX_TASK_ID='dbt_tests.dbt_test_gold' AIRFLOW_CTX_EXECUTION_DATE='2026-04-30T11:27:21.309821+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-30T11:27:21.309821+00:00'
+[2026-04-30T11:29:33.210+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-04-30T11:29:33.235+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-04-30T11:29:33.237+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'dbt test --project-dir /opt/***/dbt/sales_dwh --profiles-dir /opt/***/dbt/profiles --no-use-colors --select marts']
+[2026-04-30T11:29:33.260+0000] {subprocess.py:86} INFO - Output:
+[2026-04-30T11:29:37.387+0000] {subprocess.py:93} INFO - 11:29:37  Running with dbt=1.11.8
+[2026-04-30T11:29:39.320+0000] {subprocess.py:93} INFO - 11:29:39  Registered adapter: snowflake=1.8.4
+[2026-04-30T11:29:41.618+0000] {subprocess.py:93} INFO - 11:29:41  Found 9 models, 5 data tests, 6 sources, 617 macros
+[2026-04-30T11:29:41.625+0000] {subprocess.py:93} INFO - 11:29:41
+[2026-04-30T11:29:41.626+0000] {subprocess.py:93} INFO - 11:29:41  Concurrency: 4 threads (target='dev')
+[2026-04-30T11:29:41.628+0000] {subprocess.py:93} INFO - 11:29:41
+[2026-04-30T11:29:42.481+0000] {subprocess.py:93} INFO - 11:29:42  1 of 5 START test not_null_dim_customers_customer_id ........................... [RUN]
+[2026-04-30T11:29:42.483+0000] {subprocess.py:93} INFO - 11:29:42  2 of 5 START test not_null_dim_products_product_id ............................. [RUN]
+[2026-04-30T11:29:42.485+0000] {subprocess.py:93} INFO - 11:29:42  3 of 5 START test not_null_fact_sales_order_number ............................. [RUN]
+[2026-04-30T11:29:42.487+0000] {subprocess.py:93} INFO - 11:29:42  4 of 5 START test unique_dim_customers_customer_id ............................. [RUN]
+[2026-04-30T11:29:44.720+0000] {subprocess.py:93} INFO - 11:29:44  1 of 5 PASS not_null_dim_customers_customer_id ................................. [PASS in 2.23s]
+[2026-04-30T11:29:44.727+0000] {subprocess.py:93} INFO - 11:29:44  5 of 5 START test unique_dim_products_product_id ............................... [RUN]
+[2026-04-30T11:29:44.987+0000] {subprocess.py:93} INFO - 11:29:44  4 of 5 FAIL 18484 unique_dim_customers_customer_id ............................. [FAIL 18484 in 2.49s]
+[2026-04-30T11:29:44.989+0000] {subprocess.py:93} INFO - 11:29:44  2 of 5 PASS not_null_dim_products_product_id ................................... [PASS in 2.50s]
+[2026-04-30T11:29:47.458+0000] {subprocess.py:93} INFO - 11:29:47  5 of 5 FAIL 197 unique_dim_products_product_id ................................. [FAIL 197 in 2.73s]
+[2026-04-30T11:29:50.544+0000] {subprocess.py:93} INFO - 11:29:50  3 of 5 PASS not_null_fact_sales_order_number ................................... [PASS in 8.05s]
+[2026-04-30T11:29:50.561+0000] {subprocess.py:93} INFO - 11:29:50
+[2026-04-30T11:29:50.563+0000] {subprocess.py:93} INFO - 11:29:50  Finished running 5 data tests in 0 hours 0 minutes and 8.93 seconds (8.93s).
+[2026-04-30T11:29:50.696+0000] {subprocess.py:93} INFO - 11:29:50
+[2026-04-30T11:29:50.698+0000] {subprocess.py:93} INFO - 11:29:50  Completed with 2 errors, 0 partial successes, and 0 warnings:
+[2026-04-30T11:29:50.700+0000] {subprocess.py:93} INFO - 11:29:50
+[2026-04-30T11:29:50.702+0000] {subprocess.py:93} INFO - 11:29:50  Failure in test unique_dim_customers_customer_id (models/marts/gold/schema.yml)
+[2026-04-30T11:29:50.704+0000] {subprocess.py:93} INFO - 11:29:50    Got 18484 results, configured to fail if != 0
+[2026-04-30T11:29:50.705+0000] {subprocess.py:93} INFO - 11:29:50
+[2026-04-30T11:29:50.707+0000] {subprocess.py:93} INFO - 11:29:50    compiled code at target/compiled/sales_dwh/models/marts/gold/schema.yml/unique_dim_customers_customer_id.sql
+[2026-04-30T11:29:50.709+0000] {subprocess.py:93} INFO - 11:29:50
+[2026-04-30T11:29:50.711+0000] {subprocess.py:93} INFO - 11:29:50  Failure in test unique_dim_products_product_id (models/marts/gold/schema.yml)
+[2026-04-30T11:29:50.712+0000] {subprocess.py:93} INFO - 11:29:50    Got 197 results, configured to fail if != 0
+[2026-04-30T11:29:50.714+0000] {subprocess.py:93} INFO - 11:29:50
+[2026-04-30T11:29:50.716+0000] {subprocess.py:93} INFO - 11:29:50    compiled code at target/compiled/sales_dwh/models/marts/gold/schema.yml/unique_dim_products_product_id.sql
+[2026-04-30T11:29:50.718+0000] {subprocess.py:93} INFO - 11:29:50
+[2026-04-30T11:29:50.720+0000] {subprocess.py:93} INFO - 11:29:50  Done. PASS=3 WARN=0 ERROR=2 SKIP=0 NO-OP=0 TOTAL=5
+[2026-04-30T11:29:52.181+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2026-04-30T11:29:52.183+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-04-30T11:29:52.202+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 243, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2026-04-30T11:29:52.211+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=sales_dwh_pipeline, task_id=dbt_tests.dbt_test_gold, run_id=manual__2026-04-30T11:27:21.309821+00:00, execution_date=20260430T112721, start_date=20260430T112932, end_date=20260430T112952
+[2026-04-30T11:29:52.247+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 14 for task dbt_tests.dbt_test_gold (Bash command failed. The command returned a non-zero exit code 1.; 408)
+[2026-04-30T11:29:52.274+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2026-04-30T11:29:52.305+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-04-30T11:29:52.308+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -88,6 +88,9 @@ def upload_and_load(csv_dir: str) -> None:
             cs.execute(put_sql)
             log.info("PUT result: %s", cs.fetchall())
 
+            log.info("Truncating %s before reload", table)
+            cs.execute(f"TRUNCATE TABLE {table}")          # ← add this
+
             log.info("Running COPY INTO %s", table)
             copy_sql = f"""
                 COPY INTO {table}
@@ -97,6 +100,7 @@ def upload_and_load(csv_dir: str) -> None:
                 ON_ERROR = CONTINUE
             """
             cs.execute(copy_sql)
+            
             rows = cs.fetchall()
             log.info("COPY result for %s: %s", table, rows)
 
