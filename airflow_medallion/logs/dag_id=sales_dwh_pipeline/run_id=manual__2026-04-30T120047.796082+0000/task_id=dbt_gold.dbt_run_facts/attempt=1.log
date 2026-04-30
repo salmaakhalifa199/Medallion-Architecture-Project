@@ -1,0 +1,35 @@
+[2026-04-30T12:02:13.714+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-30T12:02:13.754+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sales_dwh_pipeline.dbt_gold.dbt_run_facts manual__2026-04-30T12:00:47.796082+00:00 [queued]>
+[2026-04-30T12:02:13.766+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sales_dwh_pipeline.dbt_gold.dbt_run_facts manual__2026-04-30T12:00:47.796082+00:00 [queued]>
+[2026-04-30T12:02:13.767+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-04-30T12:02:13.782+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): dbt_gold.dbt_run_facts> on 2026-04-30 12:00:47.796082+00:00
+[2026-04-30T12:02:13.795+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=617) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-04-30T12:02:13.797+0000] {standard_task_runner.py:63} INFO - Started process 618 to run task
+[2026-04-30T12:02:13.796+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'sales_dwh_pipeline', 'dbt_gold.dbt_run_facts', 'manual__2026-04-30T12:00:47.796082+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/sales_dwh_pipeline.py', '--cfg-path', '/tmp/tmp9a884hzr']
+[2026-04-30T12:02:13.798+0000] {standard_task_runner.py:91} INFO - Job 30: Subtask dbt_gold.dbt_run_facts
+[2026-04-30T12:02:13.880+0000] {task_command.py:426} INFO - Running <TaskInstance: sales_dwh_pipeline.dbt_gold.dbt_run_facts manual__2026-04-30T12:00:47.796082+00:00 [running]> on host d366443b1966
+[2026-04-30T12:02:13.995+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-team' AIRFLOW_CTX_DAG_ID='sales_dwh_pipeline' AIRFLOW_CTX_TASK_ID='dbt_gold.dbt_run_facts' AIRFLOW_CTX_EXECUTION_DATE='2026-04-30T12:00:47.796082+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-30T12:00:47.796082+00:00'
+[2026-04-30T12:02:13.998+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-04-30T12:02:14.019+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-04-30T12:02:14.021+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'dbt run --project-dir /opt/***/dbt/sales_dwh --profiles-dir /opt/***/dbt/profiles --no-use-colors --select marts.gold.fact_sales']
+[2026-04-30T12:02:14.039+0000] {subprocess.py:86} INFO - Output:
+[2026-04-30T12:02:17.063+0000] {subprocess.py:93} INFO - 12:02:17  Running with dbt=1.11.8
+[2026-04-30T12:02:18.659+0000] {subprocess.py:93} INFO - 12:02:18  Registered adapter: snowflake=1.8.4
+[2026-04-30T12:02:19.987+0000] {subprocess.py:93} INFO - 12:02:19  Found 9 models, 5 data tests, 6 sources, 617 macros
+[2026-04-30T12:02:19.991+0000] {subprocess.py:93} INFO - 12:02:19
+[2026-04-30T12:02:19.993+0000] {subprocess.py:93} INFO - 12:02:19  Concurrency: 4 threads (target='dev')
+[2026-04-30T12:02:19.995+0000] {subprocess.py:93} INFO - 12:02:19
+[2026-04-30T12:02:26.782+0000] {subprocess.py:93} INFO - 12:02:26  1 of 1 START sql table model Gold.fact_sales ................................... [RUN]
+[2026-04-30T12:02:30.459+0000] {subprocess.py:93} INFO - 12:02:30  1 of 1 OK created sql table model Gold.fact_sales .............................. [SUCCESS 1 in 3.67s]
+[2026-04-30T12:02:30.468+0000] {subprocess.py:93} INFO - 12:02:30
+[2026-04-30T12:02:30.470+0000] {subprocess.py:93} INFO - 12:02:30  Finished running 1 table model in 0 hours 0 minutes and 10.47 seconds (10.47s).
+[2026-04-30T12:02:30.678+0000] {subprocess.py:93} INFO - 12:02:30
+[2026-04-30T12:02:30.679+0000] {subprocess.py:93} INFO - 12:02:30  Completed successfully
+[2026-04-30T12:02:30.681+0000] {subprocess.py:93} INFO - 12:02:30
+[2026-04-30T12:02:30.682+0000] {subprocess.py:93} INFO - 12:02:30  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[2026-04-30T12:02:32.250+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-04-30T12:02:32.252+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-04-30T12:02:32.305+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=sales_dwh_pipeline, task_id=dbt_gold.dbt_run_facts, run_id=manual__2026-04-30T12:00:47.796082+00:00, execution_date=20260430T120047, start_date=20260430T120213, end_date=20260430T120232
+[2026-04-30T12:02:32.334+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-04-30T12:02:32.366+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-04-30T12:02:32.369+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

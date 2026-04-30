@@ -587,3 +587,550 @@ IndentationError: unindent does not match any outer indentation level
 [2026-04-30T11:53:08.971+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
 [2026-04-30T11:53:09.032+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:53:09.032+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-04-30T11:53:09.135+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.232 seconds
+[2026-04-30T11:53:39.987+0000] {processor.py:161} INFO - Started process (PID=281) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:53:39.989+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T11:53:39.995+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:53:39.993+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:53:40.059+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:53:40.135+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:53:40.134+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T11:53:40.244+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.271 seconds
+[2026-04-30T11:54:11.001+0000] {processor.py:161} INFO - Started process (PID=293) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:54:11.003+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T11:54:11.008+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:54:11.007+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:54:11.058+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:54:11.123+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:54:11.123+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T11:54:11.226+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.238 seconds
+[2026-04-30T11:54:41.309+0000] {processor.py:161} INFO - Started process (PID=304) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:54:41.311+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T11:54:41.315+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:54:41.314+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:54:41.353+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:54:41.410+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:54:41.410+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T11:54:41.506+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.207 seconds
+[2026-04-30T11:55:12.600+0000] {processor.py:161} INFO - Started process (PID=315) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:55:12.603+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T11:55:12.607+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:55:12.606+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:55:12.658+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:55:12.725+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:55:12.725+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T11:55:12.828+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.245 seconds
+[2026-04-30T11:55:43.574+0000] {processor.py:161} INFO - Started process (PID=326) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:55:43.576+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T11:55:43.581+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:55:43.580+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:55:43.628+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:55:43.694+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:55:43.693+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T11:55:43.781+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.218 seconds
+[2026-04-30T11:56:14.463+0000] {processor.py:161} INFO - Started process (PID=337) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:56:14.465+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T11:56:14.470+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:56:14.469+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:56:14.518+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:56:14.582+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:56:14.581+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T11:56:14.684+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.246 seconds
+[2026-04-30T11:56:45.256+0000] {processor.py:161} INFO - Started process (PID=348) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:56:45.259+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T11:56:45.264+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:56:45.263+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:56:45.316+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:56:45.385+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:56:45.384+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T11:56:45.472+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.229 seconds
+[2026-04-30T11:57:16.209+0000] {processor.py:161} INFO - Started process (PID=386) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:57:16.212+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T11:57:16.219+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:57:16.217+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:57:16.286+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:57:16.389+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:57:16.389+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T11:57:16.500+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.310 seconds
+[2026-04-30T11:57:47.253+0000] {processor.py:161} INFO - Started process (PID=400) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:57:47.256+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T11:57:47.260+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:57:47.259+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:57:47.308+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:57:47.370+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:57:47.369+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T11:57:47.472+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:57:47.472+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T11:57:47.530+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.291 seconds
+[2026-04-30T11:58:18.210+0000] {processor.py:161} INFO - Started process (PID=411) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:58:18.213+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T11:58:18.218+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:58:18.216+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:58:18.281+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:58:18.361+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:58:18.360+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T11:58:18.411+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:58:18.411+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T11:58:18.449+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.254 seconds
+[2026-04-30T11:58:49.026+0000] {processor.py:161} INFO - Started process (PID=422) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:58:49.028+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T11:58:49.032+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:58:49.031+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:58:49.077+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:58:49.139+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:58:49.138+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T11:58:49.189+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:58:49.188+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T11:58:49.248+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.250 seconds
+[2026-04-30T11:59:19.996+0000] {processor.py:161} INFO - Started process (PID=433) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:59:19.998+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T11:59:20.002+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:59:20.002+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:59:20.044+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:59:20.107+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:59:20.107+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T11:59:20.168+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:59:20.168+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T11:59:20.209+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.227 seconds
+[2026-04-30T11:59:51.054+0000] {processor.py:161} INFO - Started process (PID=444) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:59:51.057+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T11:59:51.060+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:59:51.060+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:59:51.106+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T11:59:51.164+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:59:51.163+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T11:59:51.215+0000] {logging_mixin.py:188} INFO - [2026-04-30T11:59:51.215+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T11:59:51.378+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.336 seconds
+[2026-04-30T12:00:21.875+0000] {processor.py:161} INFO - Started process (PID=455) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:00:21.878+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:00:21.882+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:00:21.881+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:00:21.925+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:00:21.984+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:00:21.983+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:00:21.374+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:00:21.374+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:00:20.353+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.228 seconds
+[2026-04-30T12:00:51.406+0000] {processor.py:161} INFO - Started process (PID=486) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:00:51.409+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:00:51.414+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:00:51.413+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:00:51.467+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:00:51.533+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:00:51.532+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:00:51.626+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.235 seconds
+[2026-04-30T12:01:22.224+0000] {processor.py:161} INFO - Started process (PID=528) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:01:22.226+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:01:22.229+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:01:22.229+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:01:22.258+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:01:22.298+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:01:22.297+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:01:22.350+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.132 seconds
+[2026-04-30T12:01:52.830+0000] {processor.py:161} INFO - Started process (PID=575) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:01:52.832+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:01:52.836+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:01:52.835+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:01:52.862+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:01:52.896+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:01:52.895+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:01:52.942+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.120 seconds
+[2026-04-30T12:02:23.438+0000] {processor.py:161} INFO - Started process (PID=639) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:02:23.441+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:02:23.447+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:02:23.445+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:02:23.491+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:02:23.538+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:02:23.537+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:02:23.610+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.191 seconds
+[2026-04-30T12:02:54.225+0000] {processor.py:161} INFO - Started process (PID=710) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:02:54.226+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:02:54.229+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:02:54.229+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:02:54.258+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:02:54.297+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:02:54.296+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:02:54.345+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.141 seconds
+[2026-04-30T12:03:24.867+0000] {processor.py:161} INFO - Started process (PID=727) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:03:24.869+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:03:24.871+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:03:24.871+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:03:24.899+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:03:24.935+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:03:24.935+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:03:24.982+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.122 seconds
+[2026-04-30T12:03:55.977+0000] {processor.py:161} INFO - Started process (PID=738) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:03:55.979+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:03:55.981+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:03:55.980+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:03:56.007+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:03:56.057+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:03:56.056+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:03:56.102+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.151 seconds
+[2026-04-30T12:04:26.790+0000] {processor.py:161} INFO - Started process (PID=749) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:04:26.791+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:04:26.794+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:04:26.793+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:04:26.829+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:04:26.880+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:04:26.880+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:04:26.958+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.177 seconds
+[2026-04-30T12:04:57.665+0000] {processor.py:161} INFO - Started process (PID=760) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:04:57.666+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:04:57.669+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:04:57.669+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:04:57.713+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:04:57.745+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:04:57.745+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:04:57.790+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.131 seconds
+[2026-04-30T12:05:28.298+0000] {processor.py:161} INFO - Started process (PID=771) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:05:28.299+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:05:28.302+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:05:28.301+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:05:28.328+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:05:28.362+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:05:28.362+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:05:28.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.130 seconds
+[2026-04-30T12:05:58.718+0000] {processor.py:161} INFO - Started process (PID=782) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:05:58.719+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:05:58.722+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:05:58.721+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:05:58.751+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:05:58.791+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:05:58.791+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:05:58.840+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.129 seconds
+[2026-04-30T12:06:29.880+0000] {processor.py:161} INFO - Started process (PID=793) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:06:29.881+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:06:29.883+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:06:29.883+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:06:29.908+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:06:29.940+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:06:29.939+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:06:29.986+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.113 seconds
+[2026-04-30T12:07:00.586+0000] {processor.py:161} INFO - Started process (PID=804) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:07:00.587+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:07:00.592+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:07:00.591+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:07:00.634+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:07:00.670+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:07:00.670+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:07:00.723+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.143 seconds
+[2026-04-30T12:07:31.273+0000] {processor.py:161} INFO - Started process (PID=815) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:07:31.275+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:07:31.277+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:07:31.277+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:07:31.309+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:07:31.351+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:07:31.351+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:07:31.405+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.138 seconds
+[2026-04-30T12:08:01.823+0000] {processor.py:161} INFO - Started process (PID=856) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:08:01.824+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:08:01.828+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:08:01.827+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:08:01.863+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:08:01.906+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:08:01.905+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:08:01.971+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.155 seconds
+[2026-04-30T12:08:32.566+0000] {processor.py:161} INFO - Started process (PID=867) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:08:32.568+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:08:32.571+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:08:32.570+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:08:32.602+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:08:32.637+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:08:32.637+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:08:32.664+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:08:32.663+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:08:32.689+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.136 seconds
+[2026-04-30T12:09:03.317+0000] {processor.py:161} INFO - Started process (PID=884) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:09:03.319+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:09:03.328+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:09:03.327+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:09:03.357+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:09:03.393+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:09:03.393+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:09:03.420+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:09:03.420+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:09:03.444+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.133 seconds
+[2026-04-30T12:09:34.269+0000] {processor.py:161} INFO - Started process (PID=896) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:09:34.270+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:09:34.272+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:09:34.271+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:09:34.295+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:09:34.330+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:09:34.329+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:09:34.356+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:09:34.356+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:09:34.379+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.116 seconds
+[2026-04-30T12:10:04.858+0000] {processor.py:161} INFO - Started process (PID=907) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:10:04.859+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:10:04.862+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:10:04.862+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:10:04.891+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:10:04.926+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:10:04.926+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:10:04.953+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:10:04.953+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:10:04.978+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.128 seconds
+[2026-04-30T12:10:35.505+0000] {processor.py:161} INFO - Started process (PID=918) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:10:35.507+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:10:35.509+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:10:35.509+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:10:35.539+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:10:35.580+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:10:35.579+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:10:35.615+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:10:35.615+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:10:35.658+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.160 seconds
+[2026-04-30T12:11:06.482+0000] {processor.py:161} INFO - Started process (PID=929) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:11:06.484+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:11:06.486+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:11:06.486+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:11:06.514+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:11:06.548+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:11:06.548+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:11:06.575+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:11:06.575+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:11:06.611+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.135 seconds
+[2026-04-30T12:11:37.435+0000] {processor.py:161} INFO - Started process (PID=940) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:11:37.436+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:11:37.439+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:11:37.439+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:11:37.468+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:11:37.523+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:11:37.523+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:11:37.573+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:11:37.572+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:11:37.633+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.206 seconds
+[2026-04-30T12:12:08.307+0000] {processor.py:161} INFO - Started process (PID=951) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:12:08.308+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:12:08.311+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:12:08.310+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:12:08.339+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:12:08.378+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:12:08.377+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:12:08.407+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:12:08.407+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:12:08.433+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.134 seconds
+[2026-04-30T12:12:54.041+0000] {processor.py:161} INFO - Started process (PID=185) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:12:54.043+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:12:54.046+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:12:54.045+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:12:54.084+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:12:54.120+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:12:54.120+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:12:54.148+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:12:54.148+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:12:54.173+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.138 seconds
+[2026-04-30T12:13:24.991+0000] {processor.py:161} INFO - Started process (PID=203) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:13:25.000+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:13:25.003+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:13:25.003+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:13:25.045+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:13:25.511+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:13:25.510+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:13:25.646+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.865 seconds
+[2026-04-30T12:13:56.451+0000] {processor.py:161} INFO - Started process (PID=265) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:13:56.453+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:13:56.456+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:13:56.455+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:13:56.484+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:13:56.525+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:13:56.524+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:13:56.575+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.131 seconds
+[2026-04-30T12:14:27.237+0000] {processor.py:161} INFO - Started process (PID=327) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:14:27.239+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:14:27.244+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:14:27.243+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:14:27.273+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:14:27.311+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:14:27.310+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:14:27.372+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.142 seconds
+[2026-04-30T12:14:58.034+0000] {processor.py:161} INFO - Started process (PID=400) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:14:58.035+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:14:58.037+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:14:58.037+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:14:58.063+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:14:58.095+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:14:58.094+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:14:58.140+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.112 seconds
+[2026-04-30T12:15:28.638+0000] {processor.py:161} INFO - Started process (PID=463) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:15:28.640+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:15:28.643+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:15:28.642+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:15:28.670+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:15:28.704+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:15:28.703+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:15:28.748+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.115 seconds
+[2026-04-30T12:15:59.292+0000] {processor.py:161} INFO - Started process (PID=474) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:15:59.293+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:15:59.295+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:15:59.295+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:15:59.321+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:15:59.353+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:15:59.352+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:15:59.396+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.112 seconds
+[2026-04-30T12:16:29.891+0000] {processor.py:161} INFO - Started process (PID=485) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:16:29.894+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:16:29.898+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:16:29.897+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:16:29.925+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:16:29.962+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:16:29.962+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:16:30.028+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.142 seconds
+[2026-04-30T12:17:00.526+0000] {processor.py:161} INFO - Started process (PID=497) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:17:00.527+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:17:00.530+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:17:00.530+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:17:00.558+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:17:00.593+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:17:00.592+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:17:00.643+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.124 seconds
+[2026-04-30T12:17:31.318+0000] {processor.py:161} INFO - Started process (PID=508) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:17:31.319+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:17:31.321+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:17:31.320+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:17:31.350+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:17:31.386+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:17:31.386+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:17:31.441+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.129 seconds
+[2026-04-30T12:18:02.148+0000] {processor.py:161} INFO - Started process (PID=519) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:18:02.152+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:18:02.155+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:18:02.154+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:18:02.178+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:18:02.214+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:18:02.213+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:18:02.526+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.384 seconds
+[2026-04-30T12:18:32.905+0000] {processor.py:161} INFO - Started process (PID=530) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:18:32.906+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:18:32.909+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:18:32.909+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:18:32.939+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:18:32.973+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:18:32.972+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:18:33.030+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.134 seconds
+[2026-04-30T12:19:03.992+0000] {processor.py:161} INFO - Started process (PID=547) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:19:03.994+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:19:03.996+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:19:03.996+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:19:04.022+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:19:04.058+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:19:04.058+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:19:04.121+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.135 seconds
+[2026-04-30T12:19:34.915+0000] {processor.py:161} INFO - Started process (PID=558) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:19:34.917+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:19:34.920+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:19:34.919+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:19:34.947+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:19:34.980+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:19:34.980+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:19:35.045+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.135 seconds
+[2026-04-30T12:20:05.113+0000] {processor.py:161} INFO - Started process (PID=570) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:20:05.115+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:20:05.118+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:20:05.118+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:20:05.150+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:20:05.186+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:20:05.186+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:20:05.253+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.147 seconds
+[2026-04-30T12:20:36.181+0000] {processor.py:161} INFO - Started process (PID=611) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:20:36.183+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:20:36.186+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:20:36.186+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:20:36.217+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:20:36.255+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:20:36.255+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:20:36.301+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.129 seconds
+[2026-04-30T12:21:06.911+0000] {processor.py:161} INFO - Started process (PID=622) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:21:06.912+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:21:06.915+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:21:06.914+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:21:06.945+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:21:06.978+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:21:06.977+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:21:07.002+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:21:07.001+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:21:07.027+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.123 seconds
+[2026-04-30T12:21:37.411+0000] {processor.py:161} INFO - Started process (PID=633) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:21:37.412+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:21:37.415+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:21:37.415+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:21:37.443+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:21:37.477+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:21:37.477+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:21:37.504+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:21:37.503+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:21:37.528+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.125 seconds
+[2026-04-30T12:22:08.137+0000] {processor.py:161} INFO - Started process (PID=644) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:22:08.138+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:22:08.141+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:22:08.140+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:22:08.166+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:22:08.197+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:22:08.197+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:22:08.223+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:22:08.223+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:22:08.262+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.131 seconds
+[2026-04-30T12:22:39.242+0000] {processor.py:161} INFO - Started process (PID=655) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:22:39.244+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:22:39.248+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:22:39.247+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:22:39.278+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:22:39.312+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:22:39.311+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:22:39.341+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:22:39.341+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:22:39.366+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.130 seconds
+[2026-04-30T12:23:42.600+0000] {processor.py:161} INFO - Started process (PID=185) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:23:42.601+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:23:42.603+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:23:42.602+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:23:42.637+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:23:42.672+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:23:42.671+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:23:42.699+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:23:42.699+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:23:42.725+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.131 seconds
+[2026-04-30T12:24:13.218+0000] {processor.py:161} INFO - Started process (PID=202) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:24:13.220+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:24:13.224+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:24:13.223+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:24:13.255+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:24:13.550+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:24:13.549+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:24:13.575+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:24:13.574+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:24:13.600+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.390 seconds
+[2026-04-30T12:24:43.942+0000] {processor.py:161} INFO - Started process (PID=245) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:24:43.944+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:24:43.947+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:24:43.946+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:24:43.976+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:24:44.011+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:24:44.011+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:24:44.060+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.126 seconds
+[2026-04-30T12:25:14.700+0000] {processor.py:161} INFO - Started process (PID=321) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:25:14.702+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:25:14.704+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:25:14.704+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:25:14.735+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:25:14.772+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:25:14.771+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:25:14.837+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.144 seconds
+[2026-04-30T12:25:45.474+0000] {processor.py:161} INFO - Started process (PID=394) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:25:45.475+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:25:45.478+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:25:45.477+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:25:45.506+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:25:45.540+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:25:45.540+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:25:45.588+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.121 seconds
+[2026-04-30T12:26:16.156+0000] {processor.py:161} INFO - Started process (PID=463) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:26:16.157+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:26:16.159+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:26:16.159+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:26:16.185+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:26:16.216+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:26:16.216+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:26:16.243+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:26:16.242+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:26:16.263+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.112 seconds
+[2026-04-30T12:26:47.017+0000] {processor.py:161} INFO - Started process (PID=474) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:26:47.018+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:26:47.021+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:26:47.020+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:26:47.047+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:26:47.079+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:26:47.078+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:26:47.102+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:26:47.102+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:26:47.139+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.127 seconds
+[2026-04-30T12:27:17.572+0000] {processor.py:161} INFO - Started process (PID=485) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:27:17.574+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:27:17.576+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:27:17.575+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:27:17.605+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:27:17.638+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:27:17.638+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:27:17.663+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:27:17.663+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:27:17.699+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.134 seconds
+[2026-04-30T12:27:48.303+0000] {processor.py:161} INFO - Started process (PID=497) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:27:48.304+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:27:48.306+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:27:48.306+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:27:48.332+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:27:48.364+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:27:48.363+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:27:48.390+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:27:48.390+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:27:48.415+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.117 seconds
+[2026-04-30T12:28:19.032+0000] {processor.py:161} INFO - Started process (PID=508) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:28:19.033+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:28:19.035+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:28:19.034+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:28:19.063+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:28:19.096+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:28:19.096+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:28:19.120+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:28:19.120+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:28:19.141+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.115 seconds
+[2026-04-30T12:28:50.137+0000] {processor.py:161} INFO - Started process (PID=519) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:28:50.138+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:28:50.140+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:28:50.140+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:28:50.164+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:28:50.197+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:28:50.196+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:28:50.222+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:28:50.221+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:28:50.258+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.126 seconds
+[2026-04-30T12:29:20.888+0000] {processor.py:161} INFO - Started process (PID=530) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:29:20.889+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:29:20.891+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:29:20.891+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:29:20.916+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:29:20.947+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:29:20.947+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:29:20.971+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:29:20.971+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:29:21.008+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.125 seconds
+[2026-04-30T12:29:51.664+0000] {processor.py:161} INFO - Started process (PID=547) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:29:51.665+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:29:51.667+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:29:51.666+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:29:51.702+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:29:51.743+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:29:51.743+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:29:51.771+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:29:51.770+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:29:51.798+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.139 seconds
+[2026-04-30T12:30:22.386+0000] {processor.py:161} INFO - Started process (PID=558) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:30:22.388+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:30:22.390+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:30:22.390+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:30:22.423+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:30:22.456+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:30:22.456+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:30:22.482+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:30:22.482+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:30:22.507+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.126 seconds
+[2026-04-30T12:30:52.578+0000] {processor.py:161} INFO - Started process (PID=569) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:30:52.580+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:30:52.582+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:30:52.582+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:30:52.611+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:30:52.648+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:30:52.647+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:30:52.676+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:30:52.675+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:30:52.696+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.125 seconds
+[2026-04-30T12:31:22.886+0000] {processor.py:161} INFO - Started process (PID=581) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:31:22.888+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:31:22.890+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:31:22.890+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:31:22.921+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:31:22.958+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:31:22.957+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:31:22.986+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:31:22.985+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:31:23.012+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.134 seconds
+[2026-04-30T12:31:54.060+0000] {processor.py:161} INFO - Started process (PID=592) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:31:54.062+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:31:54.064+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:31:54.064+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:31:54.093+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:31:54.133+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:31:54.133+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:31:54.164+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:31:54.164+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:31:54.191+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.137 seconds
+[2026-04-30T12:32:24.795+0000] {processor.py:161} INFO - Started process (PID=603) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:32:24.797+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:32:24.799+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:32:24.799+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:32:24.825+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:32:24.857+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:32:24.856+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:32:24.883+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:32:24.882+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:32:24.918+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.129 seconds
+[2026-04-30T12:32:55.563+0000] {processor.py:161} INFO - Started process (PID=614) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:32:55.565+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:32:55.567+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:32:55.566+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:32:55.593+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:32:55.626+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:32:55.626+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:32:55.654+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:32:55.654+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:32:55.678+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.121 seconds
+[2026-04-30T12:33:26.346+0000] {processor.py:161} INFO - Started process (PID=625) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:33:26.348+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:33:26.350+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:33:26.350+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:33:26.381+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:33:26.417+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:33:26.416+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:33:26.445+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:33:26.445+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:33:26.472+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.133 seconds
+[2026-04-30T12:33:56.825+0000] {processor.py:161} INFO - Started process (PID=636) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:33:56.826+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:33:56.829+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:33:56.829+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:33:56.856+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:33:56.889+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:33:56.889+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:33:56.917+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:33:56.917+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:33:56.949+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.131 seconds
+[2026-04-30T12:34:27.785+0000] {processor.py:161} INFO - Started process (PID=647) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:34:27.787+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:34:27.790+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:34:27.790+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:34:27.814+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:34:27.845+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:34:27.845+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:34:27.872+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:34:27.871+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:34:27.908+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.129 seconds
+[2026-04-30T12:34:58.851+0000] {processor.py:161} INFO - Started process (PID=658) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:34:58.853+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:34:58.855+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:34:58.855+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:34:58.879+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:34:58.915+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:34:58.915+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:34:58.941+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:34:58.941+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:34:58.966+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.120 seconds
+[2026-04-30T12:35:29.942+0000] {processor.py:161} INFO - Started process (PID=675) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:35:29.943+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:35:29.946+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:35:29.946+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:35:29.974+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:35:30.005+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:35:30.005+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:35:30.033+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:35:30.032+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:35:30.055+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.120 seconds
+[2026-04-30T12:36:00.749+0000] {processor.py:161} INFO - Started process (PID=687) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:36:00.758+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:36:00.791+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:36:00.787+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:36:00.912+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:36:01.253+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:36:01.252+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:36:01.597+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:36:01.596+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:36:01.732+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.988 seconds
+[2026-04-30T12:36:32.443+0000] {processor.py:161} INFO - Started process (PID=699) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:36:32.454+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:36:32.472+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:36:32.470+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:36:32.540+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:36:32.659+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:36:32.659+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:36:32.722+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:36:32.721+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:36:32.765+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.360 seconds
+[2026-04-30T12:37:03.364+0000] {processor.py:161} INFO - Started process (PID=710) to work on /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:37:03.365+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_dwh_pipeline.py for tasks to queue
+[2026-04-30T12:37:03.368+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:37:03.368+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:37:03.527+0000] {processor.py:840} INFO - DAG(s) 'sales_dwh_pipeline' retrieved from /opt/airflow/dags/sales_dwh_pipeline.py
+[2026-04-30T12:37:03.582+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:37:03.582+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-30T12:37:03.612+0000] {logging_mixin.py:188} INFO - [2026-04-30T12:37:03.611+0000] {dag.py:3954} INFO - Setting next_dagrun for sales_dwh_pipeline to 2026-04-30 02:00:00+00:00, run_after=2026-05-01 02:00:00+00:00
+[2026-04-30T12:37:03.636+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_dwh_pipeline.py took 0.287 seconds

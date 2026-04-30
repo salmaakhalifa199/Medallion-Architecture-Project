@@ -1,0 +1,70 @@
+[2026-04-30T12:00:48.734+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-30T12:00:48.802+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sales_dwh_pipeline.bronze.load_bronze manual__2026-04-30T12:00:47.796082+00:00 [queued]>
+[2026-04-30T12:00:48.822+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sales_dwh_pipeline.bronze.load_bronze manual__2026-04-30T12:00:47.796082+00:00 [queued]>
+[2026-04-30T12:00:48.823+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-04-30T12:00:48.853+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): bronze.load_bronze> on 2026-04-30 12:00:47.796082+00:00
+[2026-04-30T12:00:48.878+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=466) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-04-30T12:00:48.876+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'sales_dwh_pipeline', 'bronze.load_bronze', 'manual__2026-04-30T12:00:47.796082+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/sales_dwh_pipeline.py', '--cfg-path', '/tmp/tmpwlr_23db']
+[2026-04-30T12:00:48.883+0000] {standard_task_runner.py:63} INFO - Started process 467 to run task
+[2026-04-30T12:00:48.883+0000] {standard_task_runner.py:91} INFO - Job 25: Subtask bronze.load_bronze
+[2026-04-30T12:00:49.030+0000] {task_command.py:426} INFO - Running <TaskInstance: sales_dwh_pipeline.bronze.load_bronze manual__2026-04-30T12:00:47.796082+00:00 [running]> on host d366443b1966
+[2026-04-30T12:00:49.192+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-team' AIRFLOW_CTX_DAG_ID='sales_dwh_pipeline' AIRFLOW_CTX_TASK_ID='bronze.load_bronze' AIRFLOW_CTX_EXECUTION_DATE='2026-04-30T12:00:47.796082+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-30T12:00:47.796082+00:00'
+[2026-04-30T12:00:49.194+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-04-30T12:00:49.220+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-04-30T12:00:49.223+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python /opt/***/scripts/bronze_loader.py --csv-dir /opt/***/data']
+[2026-04-30T12:00:49.245+0000] {subprocess.py:86} INFO - Output:
+[2026-04-30T12:00:50.156+0000] {subprocess.py:93} INFO - 2026-04-30 12:00:50,156 [INFO] Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2026-04-30T12:00:50.157+0000] {subprocess.py:93} INFO - 2026-04-30 12:00:50,156 [INFO] This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2026-04-30T12:00:52.287+0000] {subprocess.py:93} INFO - 2026-04-30 12:00:52,287 [INFO] Number of results in first chunk: 1
+[2026-04-30T12:00:52.674+0000] {subprocess.py:93} INFO - 2026-04-30 12:00:52,674 [INFO] Number of results in first chunk: 1
+[2026-04-30T12:00:52.678+0000] {subprocess.py:93} INFO - 2026-04-30 12:00:52,678 [INFO] Uploading /opt/***/data/source_crm/cust_info.csv → @BRONZE.BRONZE_STAGE
+[2026-04-30T12:00:56.321+0000] {subprocess.py:93} INFO - 2026-04-30 12:00:56,321 [INFO] PUT result: [('cust_info.csv', 'cust_info.csv.gz', 855395, 189536, 'NONE', 'GZIP', 'UPLOADED', '')]
+[2026-04-30T12:00:56.324+0000] {subprocess.py:93} INFO - 2026-04-30 12:00:56,321 [INFO] Truncating BRONZE.CRM_CUST_INFO before reload
+[2026-04-30T12:00:57.073+0000] {subprocess.py:93} INFO - 2026-04-30 12:00:57,073 [INFO] Number of results in first chunk: 1
+[2026-04-30T12:00:57.075+0000] {subprocess.py:93} INFO - 2026-04-30 12:00:57,073 [INFO] Running COPY INTO BRONZE.CRM_CUST_INFO
+[2026-04-30T12:00:58.953+0000] {subprocess.py:93} INFO - 2026-04-30 12:00:58,953 [INFO] Number of results in first chunk: 1
+[2026-04-30T12:00:58.954+0000] {subprocess.py:93} INFO - 2026-04-30 12:00:58,953 [INFO] COPY result for BRONZE.CRM_CUST_INFO: [('bronze_stage/cust_info.csv.gz', 'LOADED', 18494, 18494, 18494, 0, None, None, None, None)]
+[2026-04-30T12:00:58.959+0000] {subprocess.py:93} INFO - 2026-04-30 12:00:58,958 [INFO] Uploading /opt/***/data/source_crm/prd_info.csv → @BRONZE.BRONZE_STAGE
+[2026-04-30T12:01:00.172+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:00,171 [INFO] PUT result: [('prd_info.csv', 'prd_info.csv.gz', 26934, 4432, 'NONE', 'GZIP', 'UPLOADED', '')]
+[2026-04-30T12:01:00.174+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:00,172 [INFO] Truncating BRONZE.CRM_PRD_INFO before reload
+[2026-04-30T12:01:00.949+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:00,949 [INFO] Number of results in first chunk: 1
+[2026-04-30T12:01:00.951+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:00,949 [INFO] Running COPY INTO BRONZE.CRM_PRD_INFO
+[2026-04-30T12:01:03.335+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:03,335 [INFO] Number of results in first chunk: 1
+[2026-04-30T12:01:03.336+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:03,335 [INFO] COPY result for BRONZE.CRM_PRD_INFO: [('bronze_stage/prd_info.csv.gz', 'LOADED', 397, 397, 397, 0, None, None, None, None)]
+[2026-04-30T12:01:03.341+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:03,340 [INFO] Uploading /opt/***/data/source_crm/sales_details.csv → @BRONZE.BRONZE_STAGE
+[2026-04-30T12:01:05.428+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:05,427 [INFO] PUT result: [('sales_details.csv', 'sales_details.csv.gz', 3588116, 468896, 'NONE', 'GZIP', 'UPLOADED', '')]
+[2026-04-30T12:01:05.430+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:05,428 [INFO] Truncating BRONZE.CRM_SALES_DETAILS before reload
+[2026-04-30T12:01:06.185+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:06,185 [INFO] Number of results in first chunk: 1
+[2026-04-30T12:01:06.188+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:06,185 [INFO] Running COPY INTO BRONZE.CRM_SALES_DETAILS
+[2026-04-30T12:01:08.189+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:08,188 [INFO] Number of results in first chunk: 1
+[2026-04-30T12:01:08.190+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:08,189 [INFO] COPY result for BRONZE.CRM_SALES_DETAILS: [('bronze_stage/sales_details.csv.gz', 'LOADED', 60398, 60398, 60398, 0, None, None, None, None)]
+[2026-04-30T12:01:08.194+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:08,194 [INFO] Uploading /opt/***/data/source_erp/loc_a101.csv → @BRONZE.BRONZE_STAGE
+[2026-04-30T12:01:09.414+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:09,413 [INFO] PUT result: [('loc_a101.csv', 'loc_a101.csv.gz', 402669, 54288, 'NONE', 'GZIP', 'UPLOADED', '')]
+[2026-04-30T12:01:09.418+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:09,414 [INFO] Truncating BRONZE.ERP_LOC_A101 before reload
+[2026-04-30T12:01:10.114+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:10,114 [INFO] Number of results in first chunk: 1
+[2026-04-30T12:01:10.115+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:10,114 [INFO] Running COPY INTO BRONZE.ERP_LOC_A101
+[2026-04-30T12:01:11.762+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:11,761 [INFO] Number of results in first chunk: 1
+[2026-04-30T12:01:11.762+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:11,762 [INFO] COPY result for BRONZE.ERP_LOC_A101: [('bronze_stage/loc_a101.csv.gz', 'LOADED', 18484, 18484, 18484, 0, None, None, None, None)]
+[2026-04-30T12:01:11.766+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:11,765 [INFO] Uploading /opt/***/data/source_erp/cust_az12.csv → @BRONZE.BRONZE_STAGE
+[2026-04-30T12:01:13.836+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:13,836 [INFO] PUT result: [('cust_az12.csv', 'cust_az12.csv.gz', 561549, 107264, 'NONE', 'GZIP', 'UPLOADED', '')]
+[2026-04-30T12:01:13.837+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:13,836 [INFO] Truncating BRONZE.ERP_CUST_AZ12 before reload
+[2026-04-30T12:01:14.575+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:14,575 [INFO] Number of results in first chunk: 1
+[2026-04-30T12:01:14.577+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:14,575 [INFO] Running COPY INTO BRONZE.ERP_CUST_AZ12
+[2026-04-30T12:01:15.936+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:15,936 [INFO] Number of results in first chunk: 1
+[2026-04-30T12:01:15.937+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:15,936 [INFO] COPY result for BRONZE.ERP_CUST_AZ12: [('bronze_stage/cust_az12.csv.gz', 'LOADED', 18484, 18484, 18484, 0, None, None, None, None)]
+[2026-04-30T12:01:15.941+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:15,940 [INFO] Uploading /opt/***/data/source_erp/px_cat_g1v2.csv → @BRONZE.BRONZE_STAGE
+[2026-04-30T12:01:17.952+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:17,952 [INFO] PUT result: [('px_cat_g1v2.csv', 'px_cat_g1v2.csv.gz', 1169, 464, 'NONE', 'GZIP', 'UPLOADED', '')]
+[2026-04-30T12:01:17.954+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:17,952 [INFO] Truncating BRONZE.ERP_PX_CAT_G1V2 before reload
+[2026-04-30T12:01:17.108+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:17,107 [INFO] Number of results in first chunk: 1
+[2026-04-30T12:01:17.108+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:17,107 [INFO] Running COPY INTO BRONZE.ERP_PX_CAT_G1V2
+[2026-04-30T12:01:18.654+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:18,654 [INFO] Number of results in first chunk: 1
+[2026-04-30T12:01:18.655+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:18,654 [INFO] COPY result for BRONZE.ERP_PX_CAT_G1V2: [('bronze_stage/px_cat_g1v2.csv.gz', 'LOADED', 37, 37, 37, 0, None, None, None, None)]
+[2026-04-30T12:01:18.656+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:18,654 [INFO] Bronze load complete.
+[2026-04-30T12:01:18.656+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:18,654 [INFO] closed
+[2026-04-30T12:01:18.890+0000] {subprocess.py:93} INFO - 2026-04-30 12:01:18,890 [INFO] No async queries seem to be running, deleting session
+[2026-04-30T12:01:19.391+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-04-30T12:01:19.394+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-04-30T12:01:19.425+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=sales_dwh_pipeline, task_id=bronze.load_bronze, run_id=manual__2026-04-30T12:00:47.796082+00:00, execution_date=20260430T120047, start_date=20260430T120048, end_date=20260430T120119
+[2026-04-30T12:01:19.481+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-04-30T12:01:19.509+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-04-30T12:01:19.511+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

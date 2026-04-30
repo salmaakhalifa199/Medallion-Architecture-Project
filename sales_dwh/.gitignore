@@ -3,3 +3,8 @@ dbt_internal_packages/
 logs/
 target/
 .env
+# .gitignore additions
+airflow_medallion/logs/
+sales_dwh/target/
+sales_dwh/dbt_packages/
+sales_dwh/logs/

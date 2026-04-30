@@ -1,0 +1,64 @@
+[2026-04-30T11:57:12.141+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-30T11:57:12.200+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sales_dwh_pipeline.bronze.load_bronze manual__2026-04-30T11:51:56.242840+00:00 [queued]>
+[2026-04-30T11:57:12.217+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sales_dwh_pipeline.bronze.load_bronze manual__2026-04-30T11:51:56.242840+00:00 [queued]>
+[2026-04-30T11:57:12.218+0000] {taskinstance.py:2306} INFO - Starting attempt 2 of 2
+[2026-04-30T11:57:12.256+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): bronze.load_bronze> on 2026-04-30 11:51:56.242840+00:00
+[2026-04-30T11:57:12.277+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=360) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-04-30T11:57:12.275+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'sales_dwh_pipeline', 'bronze.load_bronze', 'manual__2026-04-30T11:51:56.242840+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/sales_dwh_pipeline.py', '--cfg-path', '/tmp/tmp5z1xqw3b']
+[2026-04-30T11:57:12.280+0000] {standard_task_runner.py:63} INFO - Started process 361 to run task
+[2026-04-30T11:57:12.280+0000] {standard_task_runner.py:91} INFO - Job 24: Subtask bronze.load_bronze
+[2026-04-30T11:57:12.415+0000] {task_command.py:426} INFO - Running <TaskInstance: sales_dwh_pipeline.bronze.load_bronze manual__2026-04-30T11:51:56.242840+00:00 [running]> on host d366443b1966
+[2026-04-30T11:57:12.574+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-team' AIRFLOW_CTX_DAG_ID='sales_dwh_pipeline' AIRFLOW_CTX_TASK_ID='bronze.load_bronze' AIRFLOW_CTX_EXECUTION_DATE='2026-04-30T11:51:56.242840+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-30T11:51:56.242840+00:00'
+[2026-04-30T11:57:12.576+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-04-30T11:57:12.602+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-04-30T11:57:12.605+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python /opt/***/scripts/bronze_loader.py --csv-dir /opt/***/data']
+[2026-04-30T11:57:12.628+0000] {subprocess.py:86} INFO - Output:
+[2026-04-30T11:57:15.192+0000] {subprocess.py:93} INFO - 2026-04-30 11:57:15,191 [INFO] Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2026-04-30T11:57:15.193+0000] {subprocess.py:93} INFO - 2026-04-30 11:57:15,192 [INFO] This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2026-04-30T11:57:17.258+0000] {subprocess.py:93} INFO - 2026-04-30 11:57:17,258 [INFO] Number of results in first chunk: 1
+[2026-04-30T11:57:17.609+0000] {subprocess.py:93} INFO - 2026-04-30 11:57:17,609 [INFO] Number of results in first chunk: 1
+[2026-04-30T11:57:17.616+0000] {subprocess.py:93} INFO - 2026-04-30 11:57:17,616 [INFO] Uploading /opt/***/data/source_crm/cust_info.csv → @BRONZE.BRONZE_STAGE
+[2026-04-30T11:57:20.218+0000] {subprocess.py:93} INFO - 2026-04-30 11:57:20,218 [INFO] PUT result: [('cust_info.csv', 'cust_info.csv.gz', 855395, 189536, 'NONE', 'GZIP', 'UPLOADED', '')]
+[2026-04-30T11:57:20.220+0000] {subprocess.py:93} INFO - 2026-04-30 11:57:20,218 [INFO] Truncating BRONZE.CRM_CUST_INFO before reload
+[2026-04-30T11:57:20.536+0000] {subprocess.py:93} INFO - 2026-04-30 11:57:20,535 [ERROR] Bronze load failed: 002003 (02000): 01c40ded-0108-b8ac-002c-91d7000580ae: SQL compilation error:
+[2026-04-30T11:57:20.537+0000] {subprocess.py:93} INFO - Schema 'SALES_DATA_WAREHOUSE.BRONZE' does not exist or not authorized.
+[2026-04-30T11:57:20.537+0000] {subprocess.py:93} INFO - 2026-04-30 11:57:20,536 [INFO] closed
+[2026-04-30T11:57:20.851+0000] {subprocess.py:93} INFO - 2026-04-30 11:57:20,850 [INFO] No async queries seem to be running, deleting session
+[2026-04-30T11:57:21.113+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2026-04-30T11:57:21.114+0000] {subprocess.py:93} INFO -   File "/opt/***/scripts/bronze_loader.py", line 125, in <module>
+[2026-04-30T11:57:21.118+0000] {subprocess.py:93} INFO -     upload_and_load(args.csv_dir)
+[2026-04-30T11:57:21.119+0000] {subprocess.py:93} INFO -   File "/opt/***/scripts/bronze_loader.py", line 92, in upload_and_load
+[2026-04-30T11:57:21.122+0000] {subprocess.py:93} INFO -     cs.execute(f"TRUNCATE TABLE {table}")          # ← add this
+[2026-04-30T11:57:21.123+0000] {subprocess.py:93} INFO -     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-04-30T11:57:21.123+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/snowflake/connector/cursor.py", line 1080, in execute
+[2026-04-30T11:57:21.124+0000] {subprocess.py:93} INFO -     Error.errorhandler_wrapper(self.connection, self, error_class, errvalue)
+[2026-04-30T11:57:21.124+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 290, in errorhandler_wrapper
+[2026-04-30T11:57:21.125+0000] {subprocess.py:93} INFO -     handed_over = Error.hand_to_other_handler(
+[2026-04-30T11:57:21.126+0000] {subprocess.py:93} INFO -                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-04-30T11:57:21.126+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 345, in hand_to_other_handler
+[2026-04-30T11:57:21.127+0000] {subprocess.py:93} INFO -     cursor.errorhandler(connection, cursor, error_class, error_value)
+[2026-04-30T11:57:21.128+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 221, in default_errorhandler
+[2026-04-30T11:57:21.128+0000] {subprocess.py:93} INFO -     raise error_class(
+[2026-04-30T11:57:21.129+0000] {subprocess.py:93} INFO - snowflake.connector.errors.ProgrammingError: 002003 (02000): 01c40ded-0108-b8ac-002c-91d7000580ae: SQL compilation error:
+[2026-04-30T11:57:21.129+0000] {subprocess.py:93} INFO - Schema 'SALES_DATA_WAREHOUSE.BRONZE' does not exist or not authorized.
+[2026-04-30T11:57:21.365+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2026-04-30T11:57:21.367+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-04-30T11:57:21.389+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 243, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2026-04-30T11:57:21.398+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=sales_dwh_pipeline, task_id=bronze.load_bronze, run_id=manual__2026-04-30T11:51:56.242840+00:00, execution_date=20260430T115156, start_date=20260430T115712, end_date=20260430T115721
+[2026-04-30T11:57:21.441+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 24 for task bronze.load_bronze (Bash command failed. The command returned a non-zero exit code 1.; 361)
+[2026-04-30T11:57:21.487+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2026-04-30T11:57:21.529+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-04-30T11:57:21.537+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

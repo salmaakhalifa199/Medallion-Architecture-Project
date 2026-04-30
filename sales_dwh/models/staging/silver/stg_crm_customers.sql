@@ -5,6 +5,18 @@ with source as (
 
 ),
 
+deduped as (
+
+    select *,
+        row_number() over (
+            partition by cst_id
+            order by cst_create_date desc
+        ) as rn
+    from source
+    where cst_id is not null
+
+),
+
 cleaned as (
 
     select
@@ -27,8 +39,8 @@ cleaned as (
 
         cst_create_date as create_date
 
-    from source
-    where cst_id is not null
+    from deduped
+    where rn = 1
 
 )
 

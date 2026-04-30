@@ -1,0 +1,45 @@
+[2026-04-30T12:14:12.550+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-30T12:14:12.593+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sales_dwh_pipeline.dbt_silver.dbt_run_silver manual__2026-04-30T12:13:23.698697+00:00 [queued]>
+[2026-04-30T12:14:12.602+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sales_dwh_pipeline.dbt_silver.dbt_run_silver manual__2026-04-30T12:13:23.698697+00:00 [queued]>
+[2026-04-30T12:14:12.603+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-04-30T12:14:12.619+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): dbt_silver.dbt_run_silver> on 2026-04-30 12:13:23.698697+00:00
+[2026-04-30T12:14:12.629+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=274) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-04-30T12:14:12.631+0000] {standard_task_runner.py:63} INFO - Started process 275 to run task
+[2026-04-30T12:14:12.629+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'sales_dwh_pipeline', 'dbt_silver.dbt_run_silver', 'manual__2026-04-30T12:13:23.698697+00:00', '--job-id', '38', '--raw', '--subdir', 'DAGS_FOLDER/sales_dwh_pipeline.py', '--cfg-path', '/tmp/tmp3gmg8ukf']
+[2026-04-30T12:14:12.631+0000] {standard_task_runner.py:91} INFO - Job 38: Subtask dbt_silver.dbt_run_silver
+[2026-04-30T12:14:12.702+0000] {task_command.py:426} INFO - Running <TaskInstance: sales_dwh_pipeline.dbt_silver.dbt_run_silver manual__2026-04-30T12:13:23.698697+00:00 [running]> on host 6c4c08334734
+[2026-04-30T12:14:12.794+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-team' AIRFLOW_CTX_DAG_ID='sales_dwh_pipeline' AIRFLOW_CTX_TASK_ID='dbt_silver.dbt_run_silver' AIRFLOW_CTX_EXECUTION_DATE='2026-04-30T12:13:23.698697+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-30T12:13:23.698697+00:00'
+[2026-04-30T12:14:12.795+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-04-30T12:14:12.811+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-04-30T12:14:12.813+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'dbt run --project-dir /opt/***/dbt/sales_dwh --profiles-dir /opt/***/dbt/profiles --no-use-colors --select staging']
+[2026-04-30T12:14:12.831+0000] {subprocess.py:86} INFO - Output:
+[2026-04-30T12:14:15.166+0000] {subprocess.py:93} INFO - 12:14:15  Running with dbt=1.11.8
+[2026-04-30T12:14:16.273+0000] {subprocess.py:93} INFO - 12:14:16  Registered adapter: snowflake=1.8.4
+[2026-04-30T12:14:17.898+0000] {subprocess.py:93} INFO - 12:14:17  Found 9 models, 5 data tests, 6 sources, 617 macros
+[2026-04-30T12:14:17.903+0000] {subprocess.py:93} INFO - 12:14:17
+[2026-04-30T12:14:17.904+0000] {subprocess.py:93} INFO - 12:14:17  Concurrency: 4 threads (target='dev')
+[2026-04-30T12:14:17.905+0000] {subprocess.py:93} INFO - 12:14:17
+[2026-04-30T12:14:22.680+0000] {subprocess.py:93} INFO - 12:14:22  1 of 6 START sql view model Silver.stg_crm_customers ........................... [RUN]
+[2026-04-30T12:14:22.681+0000] {subprocess.py:93} INFO - 12:14:22  2 of 6 START sql view model Silver.stg_crm_products ............................ [RUN]
+[2026-04-30T12:14:22.683+0000] {subprocess.py:93} INFO - 12:14:22  3 of 6 START sql view model Silver.stg_crm_sales ............................... [RUN]
+[2026-04-30T12:14:22.684+0000] {subprocess.py:93} INFO - 12:14:22  4 of 6 START sql view model Silver.stg_erp_categories .......................... [RUN]
+[2026-04-30T12:14:25.304+0000] {subprocess.py:93} INFO - 12:14:25  1 of 6 OK created sql view model Silver.stg_crm_customers ...................... [SUCCESS 1 in 2.61s]
+[2026-04-30T12:14:25.311+0000] {subprocess.py:93} INFO - 12:14:25  5 of 6 START sql view model Silver.stg_erp_customers ........................... [RUN]
+[2026-04-30T12:14:25.324+0000] {subprocess.py:93} INFO - 12:14:25  3 of 6 OK created sql view model Silver.stg_crm_sales .......................... [SUCCESS 1 in 2.63s]
+[2026-04-30T12:14:25.330+0000] {subprocess.py:93} INFO - 12:14:25  6 of 6 START sql view model Silver.stg_erp_locations ........................... [RUN]
+[2026-04-30T12:14:25.350+0000] {subprocess.py:93} INFO - 12:14:25  2 of 6 OK created sql view model Silver.stg_crm_products ....................... [SUCCESS 1 in 2.66s]
+[2026-04-30T12:14:25.379+0000] {subprocess.py:93} INFO - 12:14:25  4 of 6 OK created sql view model Silver.stg_erp_categories ..................... [SUCCESS 1 in 2.69s]
+[2026-04-30T12:14:27.567+0000] {subprocess.py:93} INFO - 12:14:27  5 of 6 OK created sql view model Silver.stg_erp_customers ...................... [SUCCESS 1 in 2.25s]
+[2026-04-30T12:14:27.645+0000] {subprocess.py:93} INFO - 12:14:27  6 of 6 OK created sql view model Silver.stg_erp_locations ...................... [SUCCESS 1 in 2.31s]
+[2026-04-30T12:14:27.655+0000] {subprocess.py:93} INFO - 12:14:27
+[2026-04-30T12:14:27.657+0000] {subprocess.py:93} INFO - 12:14:27  Finished running 6 view models in 0 hours 0 minutes and 9.75 seconds (9.75s).
+[2026-04-30T12:14:27.738+0000] {subprocess.py:93} INFO - 12:14:27
+[2026-04-30T12:14:27.739+0000] {subprocess.py:93} INFO - 12:14:27  Completed successfully
+[2026-04-30T12:14:27.740+0000] {subprocess.py:93} INFO - 12:14:27
+[2026-04-30T12:14:27.742+0000] {subprocess.py:93} INFO - 12:14:27  Done. PASS=6 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=6
+[2026-04-30T12:14:27.199+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-04-30T12:14:27.200+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-04-30T12:14:27.235+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=sales_dwh_pipeline, task_id=dbt_silver.dbt_run_silver, run_id=manual__2026-04-30T12:13:23.698697+00:00, execution_date=20260430T121323, start_date=20260430T121412, end_date=20260430T121427
+[2026-04-30T12:14:27.285+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-04-30T12:14:27.314+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-04-30T12:14:27.316+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
